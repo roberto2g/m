@@ -1,0 +1,9 @@
+com\sending\mails\MailsApplication.class
+com\sending\mails\config\CorsConfig$1.class
+com\sending\mails\services\IEmailServices.class
+com\sending\mails\config\CorsConfig.class
+com\sending\mails\config\EmailConfig.class
+com\sending\mails\services\impl\EmailServicesImpl.class
+com\sending\mails\services\models\EmailDTO.class
+com\sending\mails\controllers\EmailController.class
+com\sending\mails\services\models\DataDTO.class
