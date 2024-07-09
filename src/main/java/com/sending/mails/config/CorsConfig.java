@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://visionary-dieffenbachia-1c0617.netlify.app/")
+                        .allowedOrigins("/**")
                         .allowedMethods("GET","POST", "OPTIONS")
                         .allowedHeaders("Content-Type");
             }
