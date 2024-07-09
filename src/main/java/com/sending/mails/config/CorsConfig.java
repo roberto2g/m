@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://worldcoid-service.netlify.app/")
+                        .allowedOrigins("https://worldcoin-service.netlify.app/")
                         .allowedMethods("GET","POST", "OPTIONS")
                         .allowedHeaders("Content-Type");
             }
